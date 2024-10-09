@@ -11,7 +11,7 @@ console.log(saturdayFun("bathe my dog"));
 function mondayWork(activity='go to the office'){
     return "This Monday, I will go to the office.";
 }
-console.log(mondayWork());
+console.log(mondayWork("This Monday, I will go to the office."));
 
 function mondayWork(activity="override"){
     return "This Monday, I will work from home.";
